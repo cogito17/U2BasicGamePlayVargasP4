@@ -1031,6 +1031,9 @@ GameObject:
   - component: {fileID: 726795881073527108}
   - component: {fileID: 9016248970733313350}
   - component: {fileID: 679652386375185598}
+  - component: {fileID: 264725396597993007}
+  - component: {fileID: 6663485326909797517}
+  - component: {fileID: -914112003222741848}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -1096,5 +1099,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e4f86172055204419105f761ba2499b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &264725396597993007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843945531333331145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d79c517ef96a99f44a639c21268e1f67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+--- !u!65 &6663485326909797517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843945531333331145}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.065166585, y: 0.21112044, z: 0.31890342}
+  m_Center: {x: 0.0004768908, y: 0.10061892, z: 0.009931112}
+--- !u!114 &-914112003222741848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843945531333331145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a271b58b12dfe4a8eb8d5f692e0d1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
